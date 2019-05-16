@@ -435,7 +435,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void stopAudio5() {
-        mediaPlayer3.stop();
+        mediaPlayer5.stop();
         try {
             //Menyetel audio ke status awal
             mediaPlayer5.prepare();
